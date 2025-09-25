@@ -20,6 +20,18 @@ To use this tool, your environment should be set up in accordance with ProteinBE
 
 ---
 
+### Using the model file
+
+To use the model file, navigate to the `model_files` directory and run the following in bash:
+
+<pre> bash
+   # Navigate into your repo 
+   cd ./model_files 
+   
+   # Concatenate model files to create your final model files 
+   cat ProteinBERT_finetuned_APA_classification_model_part_* > ProteinBERT_finetuned_APA_classification.pkl 
+</pre>
+
 ## Inputs
 
 1. **Model file** (`--model_file`)  
