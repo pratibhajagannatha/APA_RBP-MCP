@@ -32,6 +32,8 @@ To use the model file, navigate to the `model_files` directory and run the follo
    cat ProteinBERT_finetuned_APA_classification_model_part_* > ProteinBERT_finetuned_APA_classification.pkl 
 </pre>
 
+---
+
 ## Inputs
 
 1. **Model file** (`--model_file`)  
